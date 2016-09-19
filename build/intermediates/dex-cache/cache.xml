@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/local/netty/MyApplication3/app/libs/eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/local/netty/MyApplication3/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0-863045a3c2b0de08bb82615968e95e23278b3024.jar" />
+    </item>
+
+</items>

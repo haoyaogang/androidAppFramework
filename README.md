@@ -10,3 +10,16 @@ android app层开发框架，主要目的简化开发者繁琐的重复性的开
   5：android-async-http 完成通用的网络请求。
   
   
+  
+  1:添加数据库:
+ UserDao dao = new UserDao(User.class);
+ User user = new User();
+ user.setName("blackcrystaling");
+ dao.add(user);
+ 
+  2:获取数据库信息:
+  UserDao dao = new UserDao(User.class);
+  Toast.makeText(this,"User:"+dao.getList().size(),Toast.LENGTH_SHORT).show();
+
+  
+  
